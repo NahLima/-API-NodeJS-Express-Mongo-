@@ -1,0 +1,28 @@
+{
+  "name": "-api-nodejs-express-mongo-",
+  "version": "1.0.0",
+  "description": "API NodeJS + Express + Mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahLima/-API-NodeJS-Express-Mongo-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahLima/-API-NodeJS-Express-Mongo-/issues"
+  },
+  "homepage": "https://github.com/NahLima/-API-NodeJS-Express-Mongo-#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6"
+  }
+}
