@@ -13,6 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }))// pra entender quando passar
 // })
 
 require("./controller/authController")(app)
+require("./controller/projectController")(app)
 
 app.listen(3001)
 
